@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    padding: 2rem;
+    margin: auto auto;
+}
+
+#tabMenu {
+    display: flex;
+    gap: 1rem;
+}
+
+#tabMenu button {
+    font-size: 1.125rem;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid white;
+    background: white;
+}
+
+#contentDisplay {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+}
